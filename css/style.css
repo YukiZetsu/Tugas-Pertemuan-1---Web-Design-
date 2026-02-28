@@ -1,0 +1,46 @@
+/* Tes Background */
+body {
+    background-color: #e3f2fd; 
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #1565c0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #0d47a1;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #0d47a1;
+    color: white;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+fieldset {
+    width: 90%; 
+    margin: 0 auto;
+    border: 1px solid #1565c0;
+    border-radius: 8px;
+}
+
+a {
+    display: inline-block;
+    width: 80%; 
+    max-width: 200px;
+    margin: 5px 0;
+    text-align: center;
+}
