@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header{
+    background-image: url(../Gambar/kize.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 30px;
+    border-bottom: 1px solid black;
+}
+
+.navbar a{
+    float: left;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.column {
+    text-align: center;
+    padding: 30px 20px;
+    text-align: center;
+    min-height: 300px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+}
+
+.column ul {
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 60vh;
+    margin: 0;
+    align-items: stretch;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.profil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 5px solid white;
+    margin: 0 auto 20px auto; 
+    display: block;
+}
+
+.list-item img {
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+    vertical-align: middle;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Menghilangkan bullet points default */
+.list-item {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.list-item li {
+    margin-bottom: 15px; /* Jarak antar baris list */
+}
+
+.footer {
+    background-color: #4a4a4a; 
+    color: white;
+    text-align: center;
+    padding: 20px; 
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+}
